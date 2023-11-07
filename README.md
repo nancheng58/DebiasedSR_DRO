@@ -3,6 +3,9 @@
 This is a PyTorch implementation for the paper accepted by WSDM 2024 (oral presentation):
 > Jiyuan Yang, Yue Ding, Yidan Wang, Pengjie Ren, Zhumin Chen, Fei Cai, Rui Zhang, Jun Ma, Zhaochun Ren, Xin Xin. Debiasing Sequential Recommenders through Distributionally Robust Optimization over System Exposure.
 
+The final version of this paper is coming soon.
+
+
 # Overview
 
 In this paper, we propose to debias sequential recommenders through Distributionally Robust Optimization (DRO) over system exposure data.
@@ -28,7 +31,8 @@ python data/ZhihuRec/data_process_ZhihuRec.py
 ```
 to preprocess the dataset.
 
-For the Tenrec dataset, you need to acquire the licence, and more details can be found in this [link](https://github.com/yuangh-x/2022-NIPS-Tenrec). After that, put the 'QB-video.csv' into 'data/Tenrec' and run
+For the Tenrec dataset, you need to acquire the licence, and more details can be found in this [link](https://github.com/yuangh-x/2022-NIPS-Tenrec). 
+After that, put the 'QB-video.csv' into 'data/Tenrec' and run
 ```bash
 python data/Tenrec/data_process_Tenrec.py
 ```
