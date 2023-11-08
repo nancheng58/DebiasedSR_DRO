@@ -64,5 +64,5 @@ More details about slurm usage can be found on this link: https://slurm.schedmd.
 # Cite
 The final version of this paper is coming soon.
 
-# Reference
+## Reference
 The code is implemented based on [S3-Rec](https://github.com/RUCAIBox/CIKM2020-S3Rec).
