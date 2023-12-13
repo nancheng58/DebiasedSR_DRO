@@ -1,9 +1,7 @@
 
 # DebiasedSR_DRO
-This is a PyTorch implementation for the paper accepted by WSDM 2024 (oral presentation):
+This is a PyTorch implementation for the [paper](https://arxiv.org/abs/2312.07036) accepted by WSDM 2024 (oral presentation):
 > Jiyuan Yang, Yue Ding, Yidan Wang, Pengjie Ren, Zhumin Chen, Fei Cai, Rui Zhang, Jun Ma, Zhaochun Ren, Xin Xin. Debiasing Sequential Recommenders through Distributionally Robust Optimization over System Exposure.
-
-The final version of this paper is coming soon.
 
 
 # Overview
