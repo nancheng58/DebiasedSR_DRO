@@ -63,4 +63,13 @@ More details about slurm usage can be found on this link: https://slurm.schedmd.
 The final version of this paper is coming soon.
 
 ## Reference
+If you find our codes and datasets useful for your research, please cite:
+```
+@inproceedings{Yang2024DebiasingSR,
+  title={Debiasing Sequential Recommenders through Distributionally Robust Optimization over System Exposure},
+  author={Jiyuan Yang and Yue Ding and Yidan Wang and Pengjie Ren and Zhumin Chen and Fei-yang Cai and Jun Ma and Rui Zhang and Zhaochun Ren and Xin Xin},
+  year={2024},
+  booktitle={Proceedings of the Seventeen ACM International Conference on Web Search and Data Mining}
+}
+```
 The code is implemented based on [S3-Rec](https://github.com/RUCAIBox/CIKM2020-S3Rec).
