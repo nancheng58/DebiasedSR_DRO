@@ -23,14 +23,13 @@ tqdm==4.48.2
 ```
 
 ## Datasets
-The default dataset setting of code is ZhihuRec and run
+The default dataset setting of code is ZhihuRec and run following code to preprocess the ZhihuRec dataset:
 ```bash
 python data/ZhihuRec/data_process_ZhihuRec.py
 ```
-to preprocess the dataset.
 
-For the Tenrec dataset, you need to acquire the licence, and more details can be found in this [link](https://github.com/yuangh-x/2022-NIPS-Tenrec). 
-After that, put the 'QB-video.csv' into 'data/Tenrec' and run
+For the Tenrec dataset, the licence to acquire data is needed, and more details can be found in this [link](https://github.com/yuangh-x/2022-NIPS-Tenrec). 
+After that, put the 'QB-video.csv' into 'data/Tenrec' and run following code to preprocess the Tenrec dataset:
 ```bash
 python data/Tenrec/data_process_Tenrec.py
 ```
@@ -42,7 +41,7 @@ python run_full.py
 ```
 
 ## Exposure simulator and Evaluation simulator
-To access the Exposure Simulator and Evaluation Simulator,
+Run following code to access the Exposure Simulator and Evaluation Simulator, respectively:
 ```bash
 python exposure.py
 ```
@@ -52,15 +51,13 @@ python evaluation.py
 
 ## Slurm script
 
-Besides, we provide the slurm execute script.
+Besides, we provide the slurm execute script to run our code.
 
-More details about slurm usage can be found on this link: https://slurm.schedmd.com/documentation.html
+More details about usage of slurm can be found in this link: https://slurm.schedmd.com/documentation.html
 
 *[Note: please modify  "conda activate envname" to your environment]*
 
 
-# Cite
-The final version of this paper is coming soon.
 
 ## Reference
 If you find our codes and datasets useful for your research, please cite:
